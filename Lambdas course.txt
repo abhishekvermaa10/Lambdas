@@ -1,0 +1,11 @@
+Demo1 - Function
+Demo2 - Predicate
+Demo3 - Consumer
+Demo4 - Supplier
+Demo5 - BiFunction
+Demo6 - BiPredicate
+Demo7 - BiConsumer
+Demo8 - Method Reference - Static Method Reference
+Demo9 - Method Reference - Instance Method Reference of a particular object
+Demo10 - Method Reference - Instance Method Reference of an arbitrary object of a particular type
+Demo11 - Method Reference - Constructor Reference
