@@ -9,6 +9,6 @@ import com.scaleupindia.service.Operation;
 public class OperationImpl implements Operation {
 	@Override
 	public boolean isPositive(int num) {
-		return num > 0;
+		return num >= 0;
 	}
 }

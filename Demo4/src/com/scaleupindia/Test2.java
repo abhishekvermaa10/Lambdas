@@ -10,7 +10,12 @@ import com.scaleupindia.service.Operation;
  */
 public class Test2 {
 	public static void main(String[] args) {
-		Operation operation = () -> LocalDateTime.now();
+		Operation operation = new Operation(){
+			@Override
+			public LocalDateTime generate() {
+				return LocalDateTime.now();
+			}
+		};
 		LocalDateTime result = operation.generate();
 		System.out.println(result);
 	}

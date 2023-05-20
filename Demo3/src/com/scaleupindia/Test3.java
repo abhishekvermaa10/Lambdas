@@ -1,6 +1,6 @@
 package com.scaleupindia;
 
-import java.util.function.Consumer;
+import com.scaleupindia.service.Operation;
 
 /**
  * @author abhishekvermaa10
@@ -8,7 +8,7 @@ import java.util.function.Consumer;
  */
 public class Test3 {
 	public static void main(String[] args) {
-		Consumer<Integer> operation = num -> System.out.println("You are learning Java " + num);
-		operation.accept(17);
+		Operation operation = num -> System.out.println("You are learning Java - " + num);
+		operation.print(17);
 	}
 }

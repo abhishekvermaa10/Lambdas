@@ -14,14 +14,17 @@ import com.scaleupindia.utility.GeneratorUtil;
 public class Demo2 {
 	public static void main(String[] args) {
 		List<Employee> employeeList = GeneratorUtil.populateEmployees();
-		CustomComparator customComparator = new CustomComparator();
 
-		Collections.sort(employeeList, customComparator::compareByName);
 		System.out.println("Sort by name:");
-		employeeList.forEach(System.out::println);
+		Collections.sort(employeeList, (o1, o2) -> CustomComparator.compareByName(o1, o2));
+		for (Employee employee : employeeList) {
+			System.out.println(employee);
+		}
 
-		Collections.sort(employeeList, customComparator::compareByMarks);
-		System.out.println("Sort by age:");
-		employeeList.forEach(System.out::println);
+		System.out.println("Sort by marks:");
+		Collections.sort(employeeList, (o1, o2) -> CustomComparator.compareByMarks(o1, o2));
+		for (Employee employee : employeeList) {
+			System.out.println(employee);
+		}
 	}
 }

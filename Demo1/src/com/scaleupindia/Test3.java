@@ -1,6 +1,6 @@
 package com.scaleupindia;
 
-import java.util.function.Function;
+import com.scaleupindia.service.Operation;
 
 /**
  * @author abhishekvermaa10
@@ -8,8 +8,11 @@ import java.util.function.Function;
  */
 public class Test3 {
 	public static void main(String[] args) {
-		Function<Integer, Integer> operation = num -> ++num;
-		int result = operation.apply(10);
+		// Create an object of Operation
+		Operation operation = num -> ++num;  //Lambda Expression
+		// invoke increment method and save output in result variable
+		int result = operation.increment(10);
+		// print result variable
 		System.out.println(result);
 	}
 }

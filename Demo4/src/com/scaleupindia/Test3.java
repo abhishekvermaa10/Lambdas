@@ -1,7 +1,8 @@
 package com.scaleupindia;
 
 import java.time.LocalDateTime;
-import java.util.function.Supplier;
+
+import com.scaleupindia.service.Operation;
 
 /**
  * @author abhishekvermaa10
@@ -9,8 +10,8 @@ import java.util.function.Supplier;
  */
 public class Test3 {
 	public static void main(String[] args) {
-		Supplier<LocalDateTime> operation = () -> LocalDateTime.now();
-		LocalDateTime result = operation.get();
+		Operation operation = () -> LocalDateTime.now();
+		LocalDateTime result = operation.generate();
 		System.out.println(result);
 	}
 }

@@ -8,7 +8,12 @@ import com.scaleupindia.service.Operation;
  */
 public class Test2 {
 	public static void main(String[] args) {
-		Operation operation = num -> num > 10;
+		Operation operation = new Operation() {
+			@Override
+			public boolean isPositive(int num) {
+				return num >= 0;
+			}
+		};
 		boolean result = operation.isPositive(10);
 		System.out.println(result);
 	}

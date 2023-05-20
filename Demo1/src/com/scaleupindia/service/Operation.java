@@ -4,6 +4,7 @@ package com.scaleupindia.service;
  * @author abhishekvermaa10
  *
  */
-public interface Operation { // SAM = Single Abstract Method
-	int increment(int num);
+@FunctionalInterface
+public interface Operation {
+	int increment(int num); // SAM = Single Abstract Method
 }

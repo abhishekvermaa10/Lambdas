@@ -6,6 +6,6 @@ import java.time.LocalDateTime;
  * @author abhishekvermaa10
  *
  */
-public interface Operation { // SAM = Single Abstract Method
+public interface Operation {
 	LocalDateTime generate();
 }

@@ -10,7 +10,7 @@ import com.scaleupindia.service.impl.OperationImpl;
 public class Test1 {
 	public static void main(String[] args) {
 		Operation operation = new OperationImpl();
-		int result = operation.add(10, 20);
+		int result = operation.divide(10, 5);
 		System.out.println(result);
 	}
 }

@@ -1,11 +1,12 @@
-Demo1 - Function
-Demo2 - Predicate
-Demo3 - Consumer
-Demo4 - Supplier
-Demo5 - BiFunction
-Demo6 - BiPredicate
-Demo7 - BiConsumer
-Demo8 - Method Reference - Static Method Reference
-Demo9 - Method Reference - Instance Method Reference of a particular object
-Demo10 - Method Reference - Instance Method Reference of an arbitrary object of a particular type
-Demo11 - Method Reference - Constructor Reference
+Demo1 - Creating Lambda Expression for method which accepts single argument and return a datatype and replacing it with Function
+Demo2 - Creating Lambda Expression for method which accepts single argument and return a boolean and replacing it with Predicate
+Demo3 - Creating Lambda Expression for method which accepts single argument and return a void and replacing it with Consumer
+Demo4 - Creating Lambda Expression for method which accepts nothing and return a datatype and replacing it with Supplier
+Demo5 - Creating Lambda Expression for method which accepts double arguments and return a datatype and replacing it with BiFunction
+Demo6 - Creating Lambda Expression for method which accepts double arguments and return a boolean and replacing it with BiPredicate
+Demo7 - Creating Lambda Expression for method which accepts double arguments and return a void and replacing it with BiConsumer
+Demo8 - Throwing unchecked and checked exception from Lambda Expressions
+Demo9 - Understanding Static Method Reference
+Demo10 - Understanding Instance Method Reference of a particular object
+Demo11 - Understanding Instance Method Reference of an arbitrary object of a particular type
+Demo12 - Understanding Constructor Reference

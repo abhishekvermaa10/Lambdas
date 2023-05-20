@@ -9,8 +9,11 @@ public class Employee {
 	private String name;
 	private int marks;
 
-	public Employee() {
+	public Employee(int id, String name, int marks) {
 		super();
+		this.id = id;
+		this.name = name;
+		this.marks = marks;
 	}
 
 	public int getId() {

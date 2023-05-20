@@ -20,12 +20,4 @@ public class GeneratorUtil {
 		employeeList.add(new Employee(102, "Elisa", 90));
 		return employeeList;
 	}
-
-	public static List<String> populateNames(List<Employee> employeeList) {
-		List<String> nameList = new ArrayList<>();
-		for (Employee employee : employeeList) {
-			nameList.add(employee.getName());
-		}
-		return nameList;
-	}
 }

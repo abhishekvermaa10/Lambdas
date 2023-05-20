@@ -4,6 +4,6 @@ package com.scaleupindia.service;
  * @author abhishekvermaa10
  *
  */
-public interface Operation { // SAM = Single Abstract Method
+public interface Operation {
 	void print(String language, int version);
 }

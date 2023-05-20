@@ -9,6 +9,6 @@ import com.scaleupindia.service.Operation;
 public class OperationImpl implements Operation {
 	@Override
 	public void print(int num) {
-		System.out.println("You are learning Java " + num);
+		System.out.println("You are learning Java - " + num);
 	}
 }
